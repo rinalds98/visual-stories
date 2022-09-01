@@ -9,3 +9,39 @@
 body {
    font-family: lato, sans-serif;
 }
+
+/* headings and logo */
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+#logo {
+    margin-left: 35px;
+    font-size: 300%;
+    color:black;
+
+}
+header a {
+    text-decoration: none;
+}
+#menu {
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 110%;
+    margin-right: 35px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+}
