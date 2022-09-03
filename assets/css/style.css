@@ -113,3 +113,20 @@ td {
 th, td {
     text-align: center;
 }
+
+/*footer */
+footer {
+    height: 150px;
+}
+
+#social-media-links {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+#social-media-links a {
+    text-decoration: none;
+    color: black;
+}
