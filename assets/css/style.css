@@ -12,6 +12,13 @@ body {
 
 /* headings and logo */
 
+body header {
+    position: sticky;
+    top : 0;
+    z-index: 5;
+    background-color: white;
+}
+
 h1, h2 {
     text-transform: uppercase;
 }
