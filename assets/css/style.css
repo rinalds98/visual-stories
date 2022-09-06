@@ -102,6 +102,20 @@ h2 {
     float: left;
 }
 
+/*Reasons to join section */
+#reasons-wrapper{
+    width: 100%;
+    height: 300px;
+    
+}
+.skills {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 /*Schedule */
 
 table {
