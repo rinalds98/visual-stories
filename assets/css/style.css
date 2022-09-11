@@ -266,34 +266,32 @@ footer {
         margin-right: 15px;
     }
 
-    .workshop-goals-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .workshop-goals-right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .text-left {
-        width: 90%;
+        width:85%;
+        margin:0 auto;
+        padding-bottom: 10px;
     }
 
     .text-right {
-        width: 90%;
+        width:85%;
+        margin:0 auto;
+        padding-bottom: 10px;
     }
 
-    .image-left {
-        height: 80%;
-
+    /* .image-left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
-
+    
     .image-right {
-        height: 80%;
-    }
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    } */
 
     .signup-form {
         margin: 0 auto;
@@ -312,13 +310,38 @@ footer {
         background-size: cover;
     }
 
+    .workshop-goals-left {
+        display: block;
+
+    }
+
+    .workshop-goals-right {
+        display: block;
+    }
+
     .skills {
         clear: both;
         width: 70%;
         position: relative;
         left: 15%;
     }
+    .image-left {
+        display: block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 240px;
+        width: 300px;
 
+    }
+
+    .image-right {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 240px;
+        width: 300px;
+    }
 
 
 }
