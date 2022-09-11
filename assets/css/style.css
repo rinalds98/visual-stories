@@ -58,16 +58,11 @@ header a {
 
 /* Hero Image */
 
-#hero-outer{
-    height: 550px;
+#image{
+    height:550px;
     width: 100%;
     overflow: hidden;
     position: relative;
-}
-
-#hero-outer #image{
-    height:550px;
-    width: 100%;
     background: url("../images/hero-image3.jpg") no-repeat;
     background-size: cover;
 }
