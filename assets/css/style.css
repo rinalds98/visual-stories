@@ -228,7 +228,7 @@ th, td {
     color: #e06004; 
 }
 
-/*footer */
+/*footer*/
 footer {
     height: 150px;
 }
@@ -249,7 +249,8 @@ footer {
 }
 
 @media screen and (max-width:1200px) {
-    
+
+    /*Header For Tablet View */
     #logo {
         text-align: center;
         margin: 0;
@@ -266,6 +267,8 @@ footer {
         margin-right: 15px;
     }
 
+    /*workshop Goals*/
+
     .text-left {
         width:85%;
         margin:0 auto;
@@ -277,6 +280,8 @@ footer {
         margin:0 auto;
         padding-bottom: 10px;
     }
+    
+    /*Sign Up Form*/
 
     .signup-form {
         margin: 0 auto;
@@ -288,12 +293,16 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
+
+    /*hero Image*/
     #hero-outer #image{
         height:550px;
         width: 100%;
         background: url("../images/hero-mobile.jpg") no-repeat;
         background-size: cover;
     }
+
+    /*Workshop Goals*/
 
     .workshop-goals-left {
         display: block;
@@ -304,12 +313,6 @@ footer {
         display: block;
     }
 
-    .skills {
-        clear: both;
-        width: 70%;
-        position: relative;
-        left: 15%;
-    }
     .image-left {
         display: block;
         display: block;
@@ -328,5 +331,12 @@ footer {
         width: 300px;
     }
 
+    /*Reasons To Join*/
 
+    .skills {
+        clear: both;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
 }
