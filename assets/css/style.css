@@ -155,7 +155,7 @@ h2 {
 }
 
 table {
-    width:50%;
+    width:80%;
     margin: 0 auto;
     border: 1px solid;
     border-collapse: collapse;
@@ -164,9 +164,10 @@ th {
     height: 50px
 }
 td {
-    padding: 5px 0px;
+    padding: 5px 0px 10px;
 
 }
+
 th, td {
     text-align: center;
 }
