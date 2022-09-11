@@ -178,3 +178,6 @@ footer {
     text-decoration: none;
     color: black;
 }
+#social-media-links i{
+    font-size: 160%;
+}
