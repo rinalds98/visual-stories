@@ -68,7 +68,7 @@ header a {
 #hero-outer #image{
     height:550px;
     width: 100%;
-    background: url("../images/hero-image.avif") no-repeat;
+    background: url("../images/hero-image3.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -177,7 +177,7 @@ th, td {
     width: 100%;
     height: 800px;
     margin-top: 100px;
-    background: url("../images/sign-up-image.avif");
+    background: url("../images/signup.jpg");
     background-size: cover;
     background-position: center;
 
@@ -288,12 +288,11 @@ footer {
 
     .image-left {
         height: 80%;
-        width: 100%;
+
     }
 
     .image-right {
         height: 80%;
-        width: 100%;
     }
 
     .signup-form {
@@ -309,7 +308,7 @@ footer {
     #hero-outer #image{
         height:550px;
         width: 100%;
-        background: url("../images/hero-mobile.avif") no-repeat;
+        background: url("../images/hero-mobile.jpg") no-repeat;
         background-size: cover;
     }
 
