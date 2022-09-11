@@ -150,6 +150,10 @@ h2 {
 }
 /*Schedule */
 
+#schedule {
+    clear: both;
+}
+
 table {
     width:50%;
     margin: 0 auto;
@@ -210,17 +214,17 @@ th, td {
     padding: 10px;
     margin-top: 15px;
     border-radius: 20px;
-    background-color: orange;
+    background-color: #e06004;
     color: #fff;
 }
 
 .form-input:hover {
-    border-color: orange;
+    border-color: #e06004;
 }
 
 #join-button:hover {
     background-color: #fff;
-    color: orange; 
+    color: #e06004; 
 }
 
 /*footer */
@@ -241,4 +245,66 @@ footer {
 }
 #social-media-links i{
     font-size: 160%;
+}
+
+@media screen and (max-width:1200px) {
+    
+    #logo {
+        text-align: center;
+    }
+
+    #menu {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    }
+
+    .workshop-goals-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workshop-goals-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-left {
+        width: 90%;
+    }
+
+    .text-right {
+        width: 90%;
+    }
+
+    .image-left {
+        height: 80%;
+    }
+
+    .image-right {
+        height: 80%;
+    }
+
+    .signup-form {
+        margin: 0 auto;
+    }
+    #join-button {
+        margin: 0 auto;
+        margin-top: 15px
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .skills {
+        clear: both;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+
+
 }
