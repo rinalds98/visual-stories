@@ -27,7 +27,10 @@ h1, h2 {
     margin-left: 35px;
     font-size: 300%;
     color:black;
+}
 
+#logo span {
+    color: #f1db23;
 }
 
 header a {
