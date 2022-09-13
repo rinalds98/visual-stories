@@ -12,20 +12,34 @@ The site is targeted to anoyone who is interested in learning how to take photos
 Users of this website will be able to find everything they need to know about this workshop. For example: what we teach, workshop meet up times and a sign up form. 
 
 
-![alt text](assets/images/amiresponsive.png)
+![Photo of website on multiple different screens](assets/images/amiresponsive.png)
 
 Features
 =
 
-- Header (Navigation Bar)
+- Navigation bar
+    - since the website takes the form of a single scroll page I decided that I should make the navigation bar sticky. By doing so it makes it easy to navigate more efficienty around the website. 
+
+![Photo of the nav bar](assets/images/vs-navbar.png)
 
 - Master Your Craft (What you do in the workshop)
+    - This section of the website is designed to show you what the workshop is about. The styling used including the use of images has been designed in stylistic way to keep the user interested in reading the section.
+
+![Photo of the nav bar](assets/images/master.png)
 
 - Reasons To Join
+    - Keeping with the simplicity of thw website, 3 sections with 3 different points
 
+![Photo of the nav bar](assets/images/reasons.png)
 - Sign Up Form
+    - This section will allow users to get signed up for the photography workshop. They will be asked to submit their full name and email address. The user can also specify the skill level they have in photography ie. Beginner, Intermiadiate or hobbyist.
 
+![Photo of the nav bar](assets/images/sign.png)
+- Footer
+    - At the very end of the website we have the footer with links to all relevent social media sites. These links are great for the workshop as they show the user that there is a community online. 
+    - This wil encourage them to check out in further detail what it's like doing the workshop.
 
+![Photo of the nav bar](assets/images/vs-footer.png)
 Testing
 =
 
@@ -36,7 +50,7 @@ Testing
 
 ## Validator Testing
 
-- I tested my website on multiple browsers including: Chrome, Firefox and Safari.
+- I tested my website on multiple browsers including: Chrome, Firefox and Safari (IOS).
     - I also tested it on multiple devices including: Laptop, Samsung S20 Ultra (Android 12), Iphone 13 Pro Max (IOS 15)
 
 - HTML
@@ -63,8 +77,10 @@ The live link can be found here [Visual Stories](https://rinalds98.github.io/vis
 
 Credits
 =
+## **Content**
+- The icons in the footer were taken from [fontawesome.com](https://fontawesome.com/ "fontawesome.com").
 ## **Media**
-- All images were taken from unsplash.com
+- All images were taken from [unsplash.com](https://unsplash.com/ "unsplash.com").
     - https://unsplash.com/photos/WxM465oM4j4
 
     - https://unsplash.com/photos/x0rJ-rzX7S8
