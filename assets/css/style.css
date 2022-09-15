@@ -104,6 +104,7 @@ h2 {
 }
 .text-left {
     text-align: center;
+    line-height: 40px;
     width: 40%;
     display: flex;
     justify-content: center;
@@ -111,6 +112,7 @@ h2 {
 }
 .text-right {
     text-align: center;
+    line-height: 40px;
     width: 40%;
     display: flex;
     justify-content: center;
@@ -316,21 +318,28 @@ footer {
 
     .workshop-goals-left {
         display: block;
+        margin-bottom: 0px;
 
     }
 
     .workshop-goals-right {
         display: block;
+        margin-bottom: 0px;
+    }
+    .text-left {
+        line-height: initial;
+    }
+
+    .text-right {
+        line-height: initial;
     }
 
     .image-left {
-        display: block;
         display: block;
         margin-left: auto;
         margin-right: auto;
         height: 240px;
         width: 300px;
-
     }
 
     .image-right {
