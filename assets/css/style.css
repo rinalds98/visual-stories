@@ -169,14 +169,16 @@ h2 {
 table {
     width:80%;
     margin: 0 auto;
-    border: 1px solid;
     border-collapse: collapse;
 }
 th {
-    height: 50px
+    height: 50px;
+    width: 200px;
 }
+
 td {
     padding: 5px 0px 10px;
+    width: 200px;
 
 }
 
@@ -275,8 +277,20 @@ footer {
     font-size: 100%;
     line-height: 40px;
     }
+    
     #menu li {
         margin-right: 15px;
+    }
+
+    /*Hero Image */
+    #image {
+    height:550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: url("../images/hero-image.jpg") no-repeat;
+    background-size: cover;
+    
     }
 
     /*workshop Goals*/
@@ -334,6 +348,14 @@ footer {
         line-height: initial;
     }
 
+    .text-left p {
+        font-size: 110%;
+    }
+
+    .text-right p {
+        font-size: 110%;
+    }
+
     .image-left {
         display: block;
         margin-left: auto;
@@ -357,5 +379,13 @@ footer {
         width: 70%;
         position: relative;
         left: 15%;
+    }
+
+    .skills.text h3 {
+        font-size: 120%;
+    }
+
+    .skills-text p {
+        font-size: 110%;
     }
 }
