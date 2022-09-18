@@ -262,6 +262,10 @@ footer {
     font-size: 160%;
 }
 
+#disclaimer p {
+    text-align: center;
+}
+
 @media screen and (max-width:1200px) {
 
     /*Header For Tablet View */
