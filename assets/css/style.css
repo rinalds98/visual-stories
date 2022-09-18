@@ -147,15 +147,15 @@ h2 {
 }
 
 #image1 {
-    background-image: url("/assets/images/join1.jpg");
+    background-image: url("../images/join1.jpg");
 }
 
 #image2 {
-    background-image: url("/assets/images/join2.jpg");
+    background-image: url("../images/join2.jpg");
 }
 
 #image3 {
-    background-image: url("/assets/images/join3.jpg");
+    background-image: url("../images/join3.jpg");
 }
 .skills p {
     padding: 20px;
