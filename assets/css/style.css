@@ -10,7 +10,7 @@ body {
    font-family: lato, sans-serif;
 }
 
-/* headings and logo */
+/* headings and logo Section*/
 
 body header {
     position: sticky;
@@ -59,9 +59,9 @@ header a {
     color: black;
 }
 
-/* Hero Image */
+/* Hero Image Section*/
 
-#image{
+#image {
     height:550px;
     width: 100%;
     overflow: hidden;
@@ -70,7 +70,7 @@ header a {
     background-size: cover;
 }
 
-/*Workshop goals*/
+/*Workshop goals Section*/
 
 h2 {
     text-align: center;
@@ -84,24 +84,27 @@ h2 {
     font-size: 120%;
 
 }
+
 #goals-wrapper h3 {
     padding-bottom: 10px;
 
 }
-.workshop-goals-left{
+
+.workshop-goals-left {
     display: flex;
     justify-content: space-evenly;
     height: 500px;
     margin-bottom: 50px;
 }
 
-.workshop-goals-right{
+.workshop-goals-right {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
     height: 500px;
     margin-bottom: 50px;
 }
+
 .text-left {
     text-align: center;
     line-height: 40px;
@@ -110,6 +113,7 @@ h2 {
     justify-content: center;
     flex-direction: column;
 }
+
 .text-right {
     text-align: center;
     line-height: 40px;
@@ -119,9 +123,9 @@ h2 {
     flex-direction: column;
 }
 
-/*Reasons to join section */
+/*Reasons to Join Section*/
 
-#reasons-wrapper{
+#reasons-wrapper {
     width: 100%;
     height: 500px;
 }
@@ -136,7 +140,7 @@ h2 {
     background-size: cover;
 }
 
-.skills-text{
+.skills-text {
     height: 100%;
     display: flex;
     align-items: center;
@@ -160,7 +164,8 @@ h2 {
 .skills p {
     padding: 20px;
 }
-/*Schedule */
+
+/*Schedule Section*/
 
 #schedule {
     clear: both;
@@ -171,6 +176,7 @@ table {
     margin: 0 auto;
     border-collapse: collapse;
 }
+
 th {
     height: 50px;
     width: 200px;
@@ -186,7 +192,8 @@ th, td {
     text-align: center;
 }
 
-/* Form*/
+/* Form Section*/
+
 .form-section {
     width: 100%;
     height: 800px;
@@ -209,6 +216,7 @@ th, td {
     border-radius: 5px;
     color: #fff;
 }
+
 .signup-form {
     color: white;
     background-color: rgba(60, 60, 60, 0.6);
@@ -218,11 +226,13 @@ th, td {
     margin-left: 100px;
     top: 30%;
 }
+
 .signup-form h2 {
     padding: 0;
     letter-spacing: 3px;
     text-transform: capitalize;
 }
+
 #join-button {
     display: block;
     font-size: 150%;
@@ -243,6 +253,7 @@ th, td {
 }
 
 /*footer*/
+
 footer {
     height: 150px;
 }
@@ -254,10 +265,12 @@ footer {
     align-items: center;
     list-style-type: none;
 }
+
 #social-media-links a {
     text-decoration: none;
     color: black;
 }
+
 #social-media-links i{
     font-size: 160%;
 }
@@ -268,7 +281,8 @@ footer {
 
 @media screen and (max-width:1200px) {
 
-    /*Header For Tablet View */
+    /*Header and Logo For Tablet View */
+
     #logo {
         text-align: center;
         margin: 0;
@@ -286,7 +300,8 @@ footer {
         margin-right: 15px;
     }
 
-    /*Hero Image */
+    /*Hero Image Tablet View*/
+
     #image {
     height:550px;
     width: 100%;
@@ -297,7 +312,7 @@ footer {
     
     }
 
-    /*workshop Goals*/
+    /*workshop Goals Tablet View*/
 
     .text-left {
         width:85%;
@@ -311,11 +326,12 @@ footer {
         padding-bottom: 10px;
     }
     
-    /*Sign Up Form*/
+    /*Sign Up Form Tablet View*/
 
     .signup-form {
         margin: 0 auto;
     }
+
     #join-button {
         margin: 0 auto;
         margin-top: 15px
@@ -324,15 +340,16 @@ footer {
 
 @media screen and (max-width: 950px) {
 
-    /*hero Image*/
-    #image{
+    /*hero Image Mobile View*/
+
+    #image {
         height:550px;
         width: 100%;
         background: url("../images/hero-mobile.jpg") no-repeat;
         background-size: cover;
     }
 
-    /*Workshop Goals*/
+    /*Workshop Goals Mobile View*/
 
     .workshop-goals-left {
         display: block;
@@ -344,6 +361,7 @@ footer {
         display: block;
         margin-bottom: 0px;
     }
+
     .text-left {
         line-height: initial;
     }
@@ -376,7 +394,7 @@ footer {
         width: 300px;
     }
 
-    /*Reasons To Join*/
+    /*Reasons To Join Mobile View*/
 
     .skills {
         clear: both;
@@ -395,6 +413,9 @@ footer {
 }
 
 @media (min-width:950px) and (max-width:1200px) {
+    
+    /*Workshop Goals Tablet View*/
+
     .text-left p {
         padding: 0 40px;
     }
@@ -407,12 +428,16 @@ footer {
 
 @media (min-width:650px) and (max-width:950px) {
 
+    /*Hero Image Mobile View*/
+
     #image {
         height:550px;
         width: 100%;
         background: url("../images/hero-image-med.jpg") no-repeat;
         background-size: cover;
     }
+
+    /*Workshop Goals Mobile View*/
 
     .image-left {
         display: block;
