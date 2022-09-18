@@ -5,8 +5,8 @@ Visual Stories
 Introduction
 =
 
-Visual Studies is a landing page for people from all ages who are interested in doing a photography course.
-Visual Studies offers photography workshops for beginners and intermiadiate levels including people who do it as a hobby.
+Visual Stories is a landing page for people from all ages who are interested in doing a photography course.
+Visual Stories offers photography workshops for beginners and intermiadiate levels including people who do it as a hobby.
 The site is targeted to anoyone who is interested in learning how to take photos.
 
 Users of this website will be able to find everything they need to know about this workshop. For example: what we teach, workshop meet up times and a sign up form. 
@@ -114,19 +114,22 @@ Testing
 - No unfixed bugs
 
 ## **Validator Testing**
+
 - **Testing**
     - I tested my website on multiple browsers including: Chrome, Firefox and Safari (IOS).
     - I also tested it on multiple devices including: Laptop, Samsung S20 Ultra (Android 12), Iphone 13 Pro Max (IOS 15)
 
 - **HTML**
     - No errors were returned when passing through the official W3C Validator.
+    ![HTML Validator Results](assets/images/html-validator.png)
+
 - **CSS**
     - No Errors were found when passing through the official (Jigsaw) validator.
+    ![CSS Validator Results](assets/images/css-validator.png)
+
 - **Accessibility (Lighthouse)**
-    - I confirmed that the colors and fonts chosen are easy to read and accesible by running it through lighthouse in Google Devtools. But I noticed my performance was significantly lower than expected. This was due to images being too large.
-
-![Lighthouse Results](assets/images/lighthouse-results.png)
-
+    - I confirmed that the colors and fonts chosen are easy to read and accesible by running it through lighthouse in Google Devtools.
+    ![Lighthouse Results](assets/images/lighthouse-results.png)
 
 Deployment
 =
@@ -140,6 +143,7 @@ The live link can be found here [Visual Stories](https://rinalds98.github.io/vis
 
 Techonologies Used
 =
+
 - ## Languages
     - HTML5
     - CSS3
@@ -151,10 +155,16 @@ Techonologies Used
 
 Credits
 =
+
 ## **Content**
 - The icons in the footer were taken from [fontawesome.com](https://fontawesome.com/ "fontawesome.com").
+- For mobile responsiveness I went to stack overflow to find how to get css to work between specific widths
+    - https://stackoverflow.com/questions/14008781/media-queries-in-between-two-widths
+
 ## **Media**
+
 - All images were taken from [unsplash.com](https://unsplash.com/ "unsplash.com").
+
     - https://unsplash.com/photos/WxM465oM4j4
 
     - https://unsplash.com/photos/x0rJ-rzX7S8
