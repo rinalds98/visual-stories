@@ -390,6 +390,17 @@ footer {
     }
 }
 
+@media (min-width:950px) and (max-width:1200px) {
+    .text-left p {
+        padding: 0 40px;
+    }
+
+    .text-right p {
+        padding: 0 40px;
+    }
+
+}
+
 @media (min-width:650px) and (max-width:950px) {
 
     #image {
